@@ -9,6 +9,7 @@
         <g-link class="nav__link" to="/about">About</g-link>
       </nav>
     </header>
+    <top-navigation></top-navigation>
     <slot/>
   </div>
 </template>
@@ -30,20 +31,26 @@ body {
 }
 
 .layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin: 0;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 1rem;
+  max-width: 100%;
+  height: 3rem;
   margin-bottom: 20px;
-  height: 80px;
+  font-family: sans-serif;
+  background-color: #ff7e00;
+  color: #ffffff;
 }
-
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: lowercase;
+}
 .nav__link {
   margin-left: 20px;
 }
