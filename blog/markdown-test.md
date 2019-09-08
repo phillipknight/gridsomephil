@@ -47,9 +47,9 @@ determines the header level.)
 
 ### Images
 
-Images are added with `![Image Alt](./images/image.jpg)`
+Images are added with `![Image Alt](https://placekitten.com/200/286)`
 
-![Image](./images/alexandr-podvalny-220262-unsplash.jpg)
+![Image](https://placekitten.com/200/286)
 
 
 ### Blockquotes
