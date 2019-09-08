@@ -1,6 +1,5 @@
 <template>
   <Layout>
-    <h1 v-html="$page.metaData.siteName" />
     <p v-html="$page.metaData.siteDescription" />
     <section class="posts">
       <post-listing v-for="edge in $page.allBlogPost.edges" :key="edge.node.id" :post="edge.node" />
