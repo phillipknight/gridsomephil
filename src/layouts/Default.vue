@@ -4,12 +4,8 @@
       <strong>
         <g-link to="/">{{ $static.metaData.siteName }}</g-link>
       </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about">About</g-link>
-      </nav>
+      <top-navigation></top-navigation>
     </header>
-    <top-navigation></top-navigation>
     <slot/>
   </div>
 </template>
@@ -24,7 +20,7 @@ query {
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: sans-serif;
   margin:0;
   padding:0;
   line-height: 1.5;
