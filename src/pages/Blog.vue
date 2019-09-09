@@ -32,7 +32,7 @@ query {
 </page-query>
 
 <script>
-import PostListing from '~/components/PostListing.vue'
+import PostListing from "~/components/PostListing.vue";
 
 export default {
   components: {
@@ -40,7 +40,7 @@ export default {
   },
   metaInfo: {
     title: "Blog"
-      }
+  }
 };
 </script>
 

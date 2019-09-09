@@ -6,7 +6,7 @@
       </strong>
       <top-navigation></top-navigation>
     </header>
-    <slot/>
+    <slot />
   </div>
 </template>
 
@@ -19,11 +19,10 @@ query {
 </static-query>
 
 <style>
-
 body {
   font-family: sans-serif;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
 }
 
