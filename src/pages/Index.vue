@@ -7,7 +7,7 @@
       <div class="center-box">
         <h1>Hello!</h1>
       <p>
-      I love playing with technology and I care about making the world a better place.
+        Welcome to my new website based on my old website.
       </p>
       </div>
       
@@ -39,6 +39,7 @@ export default {
 .center-box {
   width:75vw;
   max-width:100%;
+  text-align: center;
 }
 
 .center-box h1 {

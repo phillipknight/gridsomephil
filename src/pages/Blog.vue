@@ -40,9 +40,14 @@ export default {
   },
   metaInfo: {
     title: "Blog"
-  }
+      }
 };
 </script>
 
 <style>
+.posts {
+  display: flex;
+  padding: 1rem;
+  flex-flow: column;
+}
 </style>
