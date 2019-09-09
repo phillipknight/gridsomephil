@@ -5,9 +5,12 @@
     
     <section class="greet">
       <div class="center-box">
-        <h1>Hello!</h1>
+        <h1>Hello World!</h1>
       <p>
         Welcome to my new website based on my old website.
+      </p>
+      <p>
+        <em>This is a work in progress</em>
       </p>
       </div>
       

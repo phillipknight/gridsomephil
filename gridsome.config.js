@@ -6,6 +6,8 @@
 
 module.exports = {
   siteName: 'Phillip Kent Knight',
+  siteUrl: 'https://phillipknight.github.io',
+  pathPrefix: '/gridsomephil',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
