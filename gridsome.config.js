@@ -29,7 +29,9 @@ module.exports = {
   ],
   transformers: {
     remark: {
-      // global remark options
+      plugins: [
+        '@gridsome/remark-prismjs'
+      ]
     }
   }
 };

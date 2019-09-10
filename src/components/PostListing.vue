@@ -16,11 +16,5 @@ export default {
 </script>
 
 <style>
-.post-list {
-  width: 75vw;
-}
 
-.description {
-  text-align: justify;
-}
 </style>

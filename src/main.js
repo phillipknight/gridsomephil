@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import TopNavigation from '~/components/TopNavigation.vue'
+import 'prismjs/themes/prism-okaidia.css'
 
 
 export default function (Vue, { router, head, isClient }) {

@@ -47,7 +47,31 @@ body {
   text-decoration: none;
   text-transform: lowercase;
 }
+
+.nav {
+  display: flex;
+}
 .nav__link {
-  margin-left: 20px;
+  display: flex;
+  margin-left: 0.5rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.5rem solid #ff7e00;
+  box-sizing: border-box;
+  padding: 0.5rem 0.25rem 0 0.25rem;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  border-bottom-color: #000000;
+  color: #000000;
+}
+
+.nav__link.active--exact,
+.nav__link.active--exact:hover,
+.nav__link.active--exact:focus {
+  border-bottom-color: #000000;
+  color: #ffffff;
 }
 </style>
