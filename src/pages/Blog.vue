@@ -50,4 +50,6 @@ export default {
   padding: 1rem;
   flex-flow: column;
 }
+
+
 </style>

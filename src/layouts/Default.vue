@@ -73,5 +73,6 @@ body {
 .nav__link.active--exact:focus {
   border-bottom-color: #000000;
   color: #ffffff;
+  cursor: default;
 }
 </style>
