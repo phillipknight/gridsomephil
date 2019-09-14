@@ -25,7 +25,7 @@ export default {
 <style>
 .greet {
   display: flex;
-  height: calc(100vh - 6rem);
+  height: calc(100vh - 3rem);
   justify-content: center;
   align-items: center;
 }

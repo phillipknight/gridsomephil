@@ -1,10 +1,20 @@
 <template>
   <div class="post-list">
-    <h1 class="title" v-html="post.title" />
-    <p class="date" v-html="post.date" />
+    <g-image v-if="post.cover_image" :src="post.cover_image" />
+    <h1 class="title">{{post.title}}</h1>
+    <div class="date">{{post.date}}</div>
     <p class="description" v-html="post.description" />
-    <b>{{post.timeToRead}} min read</b> &nbsp;
-    <g-link :to="post.path" class="button">Read More...</g-link>
+    <g-link :to="post.path" class="button">Read More</g-link>
+    <div class="post-listing-meta">
+      <small> {{post.timeToRead}} min read</small>
+      <ul class="post-listing-tags">
+      <li v-for="tag in post.tags" :key="tag.id" class="tag-listed">
+        <g-link :to="tag.path" class="tag-link">#{{ tag.title }}</g-link>
+      </li>
+      </ul>
+    </div>
+
+    
   </div>
 </template>
 
@@ -16,5 +26,19 @@ export default {
 </script>
 
 <style>
+.post-list {
+  display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 0;
+    
+}
+
+.title {
+  grid-column: 1/1;
+  align-self: center;
+  justify-self: left;
+}
+
 
 </style>

@@ -59,6 +59,15 @@ a {
  color: var(--link);
 }
 
+.button {
+  border: 1px solid var(--link);
+  padding: 0.5rem;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.button:hover, .button:focus {
+  opacity: 1;
+}
 .layout {
   margin: 0;
 }

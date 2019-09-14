@@ -20,7 +20,7 @@ module.exports = {
           // Create a Tag content type and its nodes automatically.
           tags: {
             typeName: "Tag",
-            route: "/tag/:id",
+            route: "/blog/tag/:id",
             create: true
           }
         }

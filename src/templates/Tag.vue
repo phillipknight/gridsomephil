@@ -1,9 +1,9 @@
 <template>
   <Layout>
-    <h1 class="tag-title text-center space-bottom"># {{ $page.tag.title }}</h1>
+    <h1 class="tag-title"># {{ $page.tag.title }}</h1>
 
     <div class="posts">
-      <PostCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node" />
+      <post-listing v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node" />
     </div>
   </Layout>
 </template>
@@ -18,10 +18,9 @@ query Tag ($id: String!) {
           ...on BlogPost {
             title
             path
-            date (format: "D. MMMM YYYY")
+            date (format: "D MMMM YYYY")
             timeToRead
             description
-            content
           }
         }
       }
@@ -31,9 +30,16 @@ query Tag ($id: String!) {
 </page-query>
 
 <script>
+import PostListing from "~/components/PostListing.vue"
 export default {
-  metaInfo: {
-    title: "Hello, world!"
+  components: {
+    PostListing
+  },
+  metaInfo() {
+    return {
+      title: this.$page.tag.title
+    };
   }
 };
+
 </script>
