@@ -30,17 +30,24 @@ export default {
 
 <style>
 .toggle-theme {
-  background-color: transparent;
-  border: 0;
-  color: var(--header-link-color);
-  cursor: pointer;
+background-color: transparent;
+    border: 0;
+    color: var(--header-link-color);
+    cursor: pointer;
+    padding: 0 0 0 1rem;
+    margin:0 0 0 0.5rem;
+    border-left: 1px solid;
+    opacity: .8;
+
 }
 
   .toggle-theme:hover {
-    opacity: .8
+    opacity: 1;
   }
   .toggle-theme:focus {
     outline: none;
+    opacity: 1;
+
   }
 
 </style>
