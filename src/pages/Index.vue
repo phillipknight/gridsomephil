@@ -3,6 +3,7 @@
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
 
     <section class="greet">
+      
       <div class="center-box">
         <h1>Hello World!</h1>
         <p>Welcome to my new website based on my old website.</p>

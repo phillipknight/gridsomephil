@@ -73,5 +73,12 @@ a.tag-link {
     text-decoration: none;
 
 }
+.post-listing-meta {
+    text-align: right;
+}
 
+.post-listing-tags {
+    text-align: right;
+    margin: 0;
+}
 </style>

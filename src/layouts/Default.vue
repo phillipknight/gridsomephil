@@ -64,6 +64,8 @@ a {
   padding: 0.5rem;
   text-decoration: none;
   opacity: 0.8;
+  text-align: center;
+  max-width: 50%;
 }
 .button:hover, .button:focus {
   opacity: 1;
@@ -72,4 +74,7 @@ a {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
 </style>

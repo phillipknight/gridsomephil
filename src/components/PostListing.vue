@@ -1,9 +1,12 @@
 <template>
   <div class="post-list">
+
     <g-image v-if="post.cover_image" :src="post.cover_image" />
     <h1 class="title">{{post.title}}</h1>
     <div class="date">{{post.date}}</div>
-    <p class="description" v-html="post.description" />
+    <p class="description" >
+      {{ post.description }}
+    </p>
     <g-link :to="post.path" class="button">Read More</g-link>
     <div class="post-listing-meta">
       <small> {{post.timeToRead}} min read</small>
@@ -13,7 +16,6 @@
       </li>
       </ul>
     </div>
-
     
   </div>
 </template>
@@ -27,11 +29,11 @@ export default {
 
 <style>
 .post-list {
-  display: grid;
+    display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-gap: 0;
-    
+    border-radius: 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 
 .title {
