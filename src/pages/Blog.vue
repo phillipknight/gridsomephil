@@ -56,29 +56,53 @@ export default {
   flex-wrap: wrap;
 }
 
+.title-and-date {
+  padding: 0.5rem;
+  background: var(--opaque-bg);
+  border-radius: 0.25rem;
+  width: fit-content;
+}
+.date {
+  font-size: small;
+  font-style: italic;
+}
+.post-header {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.post-list {
+  flex-basis: 600px;
+  flex-grow: 1;
+}
+
 .post-listing-tags li {
   display: inline;
-  padding:0.25rem;
+  padding: 0.25rem;
   opacity: 0.8;
 }
-.post-listing-tags li:hover,.post-listing-tags li:focus {
-    opacity: 1;
+.post-listing-tags li:hover,
+.post-listing-tags li:focus {
+  opacity: 1;
 }
 
 ul.post-listing-tags {
-    text-align: right;
+  text-align: right;
 }
 
 a.tag-link {
-    text-decoration: none;
-
+  text-decoration: none;
 }
 .post-listing-meta {
-    text-align: right;
+  text-align: right;
 }
 
 .post-listing-tags {
-    text-align: right;
-    margin: 0;
+  text-align: right;
+  margin: 0;
 }
 </style>

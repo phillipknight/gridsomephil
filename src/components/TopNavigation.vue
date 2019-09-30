@@ -2,7 +2,7 @@
   <nav class="nav">
     <g-link class="nav-link" to="/">Hello</g-link>
     <g-link class="nav-link" to="/about">About</g-link>
-    <g-link class="nav-link" to="/blog">Blog</g-link>
+<!--    <g-link class="nav-link" to="/blog">Blog</g-link> -->
     <toggle-theme></toggle-theme>
   </nav>
 </template>

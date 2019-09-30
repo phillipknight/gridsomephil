@@ -33,6 +33,7 @@ body {
   --body-bg: #ffffff;
   --body-copy: #000000;
   --link: #ff7e00;
+  --opaque-bg:#ffffffcc;
 
   
   font-family: sans-serif;
@@ -52,6 +53,7 @@ body[data-theme="dark"] {
   --body-bg: #000000;
   --body-copy: #ffffff;
   --link: #ff7e00;
+  --opaque-bg:#0000009c;
 
 }
 
@@ -65,7 +67,8 @@ a {
   text-decoration: none;
   opacity: 0.8;
   text-align: center;
-  max-width: 50%;
+  width:fit-content;
+  height: fit-content;
 }
 .button:hover, .button:focus {
   opacity: 1;
