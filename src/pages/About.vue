@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <main>
-      <h1>About me</h1>
+      <h1 class="side-padding">About me</h1>
       <div class="bio-photo">
         <g-image
           src="https://phillipkent.neocities.org/20190929_182036.jpg"
@@ -73,12 +73,15 @@ export default {
 
 
 section.bio {
-  display: grid;
-  grid-template-columns: 25% auto 25%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
 }
 
 .bio-summary {
-  grid-column-start: 2;
+  flex-basis: 700px;
+  padding: 1rem;
 }
 
 .category {
@@ -91,4 +94,11 @@ section.bio {
   align-items: center;
   justify-content: center;
 }
+
+.side-padding {
+  padding: 0 1rem;
+}
+
+
+
 </style>
