@@ -2,12 +2,46 @@
   <Layout>
     <main>
       <h1 class="side-padding">About me</h1>
-      <div class="bio-photo">
-        <g-image
-          src="https://phillipkent.neocities.org/20190929_182036.jpg"
-          alt="photo of the very dashing Phillip Kent Knight"
-        />
-      </div>
+
+      <section class="bio-stats">
+        <div class="bio-photo">
+          <g-image
+            src="https://phillipkent.neocities.org/20190929_182036.jpg"
+            alt="photo of the very dashing Phillip Kent Knight"
+          />
+        </div>
+        <div class="stats-and-links">
+          <h2 class="bio-name">Phillip Kent Knight</h2>
+          <div class="stat">
+            <span class="category">Specialty</span>
+            Online Advocacy Technology
+          </div>
+          <div class="stat">
+            <span class="category">Hometown</span>
+            El Segundo, California
+          </div>
+
+          <div class="stat">
+            <span class="category">Home, now</span>
+            Washington, District of Columbia
+          </div>
+          <!--  <div class="social-icons">
+            <ul class="social-buttons">
+              <li>
+                <a href="https://dev.to/phillipkent">
+                  <img
+                    src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+                    alt="Phillip Kent Knight's DEV Profile"
+                    height="30"
+                    width="30"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>-->
+        </div>
+      </section>
+
       <section class="bio">
         <div class="bio-summary">
           <h2>Technology and attempts to change the world are the only things that really hold my attention.</h2>
@@ -24,39 +58,7 @@
           </p>
         </div>
       </section>
-      <section class="bio-stats">
-        <div class="stats-and-links">
-          <h2>Phillip Kent Knight</h2>
-          <table>
-            <tr>
-              <td class="category">Specialty:</td>
-              <td>Online Advocacy Technology</td>
-            </tr>
-            <tr>
-              <td class="category">Hometown:</td>
-              <td>El Segundo, California</td>
-            </tr>
-            <tr>
-              <td class="category">Home, now:</td>
-              <td>Washington, District of Columbia</td>
-            </tr>
-          </table>
-         <!--  <div class="social-icons">
-            <ul class="social-buttons">
-              <li>
-                <a href="https://dev.to/phillipkent">
-                  <img
-                    src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
-                    alt="Phillip Kent Knight's DEV Profile"
-                    height="30"
-                    width="30"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div> -->
-        </div>
-      </section>
+
       <section class="employment-highlights"></section>
     </main>
   </Layout>
@@ -70,15 +72,15 @@ export default {
 };
 </script>
 <style>
-
-
 section.bio {
   display: flex;
   align-content: center;
   justify-content: center;
-
 }
 
+.bio-name {
+  margin-top: 0;
+}
 .bio-summary {
   flex-basis: 700px;
   padding: 1rem;
@@ -89,16 +91,19 @@ section.bio {
 }
 
 .bio-stats {
-  height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .side-padding {
   padding: 0 1rem;
 }
 
+.stats-and-links {
+    padding: 1rem;
+}
 
-
+span.category {
+    display: block;
+    font-size: small;
+}
 </style>
