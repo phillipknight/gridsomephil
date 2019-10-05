@@ -99,11 +99,11 @@ section.bio {
 }
 
 .stats-and-links {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 span.category {
-    display: block;
-    font-size: small;
+  display: block;
+  font-size: small;
 }
 </style>
