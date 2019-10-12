@@ -3,32 +3,11 @@
     <main>
       <h1 class="side-padding">About me</h1>
 
-      <section class="bio-stats">
-        <div class="bio-photo">
-          <g-image
+      <section class="bio">
+                  <g-image
             src="https://phillipkent.neocities.org/20190929_182036.jpg"
             alt="photo of the very dashing Phillip Kent Knight"
           />
-        </div>
-        
-          <!--  <div class="social-icons">
-            <ul class="social-buttons">
-              <li>
-                <a href="https://dev.to/phillipkent">
-                  <img
-                    src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
-                    alt="Phillip Kent Knight's DEV Profile"
-                    height="30"
-                    width="30"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>-->
-       
-      </section>
-
-      <section class="bio">
         <div class="bio-summary">
           <h2>Technology and attempts to change the world are the only things that really hold my attention.</h2>
           <p>
