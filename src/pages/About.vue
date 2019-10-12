@@ -10,21 +10,7 @@
             alt="photo of the very dashing Phillip Kent Knight"
           />
         </div>
-        <div class="stats-and-links">
-          <h2 class="bio-name">Phillip Kent Knight</h2>
-          <div class="stat">
-            <span class="category">Specialty</span>
-            Online Advocacy Technology
-          </div>
-          <div class="stat">
-            <span class="category">Hometown</span>
-            El Segundo, California
-          </div>
-
-          <div class="stat">
-            <span class="category">Home, now</span>
-            Washington, District of Columbia
-          </div>
+        
           <!--  <div class="social-icons">
             <ul class="social-buttons">
               <li>
@@ -39,7 +25,7 @@
               </li>
             </ul>
           </div>-->
-        </div>
+       
       </section>
 
       <section class="bio">
