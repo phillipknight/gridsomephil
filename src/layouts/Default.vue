@@ -1,13 +1,13 @@
 <template>
   <div class="layout">
-    <header-component></header-component>
+    <HeaderComponent></HeaderComponent>
     <slot />
   </div>
 </template>
 
 <static-query>
 query {
-  metaData {
+  metadata {
     siteName
   }
 }

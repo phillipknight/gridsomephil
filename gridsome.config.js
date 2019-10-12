@@ -14,7 +14,7 @@ module.exports = {
       options: {
         baseDir: "./blog",
         path: "*.md",
-        route: "/blog/:slug",
+        route: "/blog/:title",
         typeName: "BlogPost",
         refs: {
           // Create a Tag content type and its nodes automatically.
