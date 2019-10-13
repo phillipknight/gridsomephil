@@ -13,52 +13,50 @@ query {
 }
 </static-query>
 <script>
-import HeaderComponent from '~/components/HeaderComponent.vue'
+import HeaderComponent from "~/components/HeaderComponent.vue";
 
 export default {
   components: {
     HeaderComponent
   }
-}
+};
 </script>
 <style>
-
-
 body {
-  --header-bg: #ff7e00;
-  --header-link-color: #ffffff;
-  --header-hover:#000000;
+  --dark-grey: #353535;
+  --orange: #ff7e00;
+  --opaque-bg: #ffffffcc;
+  --header-bg: var(--orange);
+  --header-link-color: white;
+  --header-hover: black;
   --nav-bottom: var(--header-bg);
-  --nav-bottom-hover:#0a0a0a;
-  --body-bg: #ffffff;
-  --body-copy: #000000;
-  --link: #ff7e00;
-  --opaque-bg:#ffffffcc;
+  --nav-bottom-hover: black;
+  --body-bg: white;
+  --body-copy: black;
+  --link: var(--orange);
 
-  
   font-family: sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.5;
   background: var(--body-bg);
-  color: var(--body-copy)
+  color: var(--body-copy);
 }
 
 body[data-theme="dark"] {
-  --header-bg: #353535;
-  --header-link-color: #ffffff;
-  --header-hover:#ff7e00;
+  --opaque-bg: #0000009c;
+  --header-bg: var(--dark-grey);
+  --header-link-color: white;
+  --header-hover: var(--orange);
   --nav-bottom: var(--header-bg);
-  --nav-bottom-hover:#ff7e00;
-  --body-bg: #000000;
-  --body-copy: #ffffff;
-  --link: #ff7e00;
-  --opaque-bg:#0000009c;
-
+  --nav-bottom-hover: var(--orange);
+  --body-bg: black;
+  --body-copy: white;
+  --link: var(--orange);
 }
 
 a {
- color: var(--link);
+  color: var(--link);
 }
 
 .button {
@@ -67,10 +65,11 @@ a {
   text-decoration: none;
   opacity: 0.8;
   text-align: center;
-  width:fit-content;
+  width: fit-content;
   height: fit-content;
 }
-.button:hover, .button:focus {
+.button:hover,
+.button:focus {
   opacity: 1;
 }
 .layout {
