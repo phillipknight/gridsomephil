@@ -8,9 +8,7 @@
         <p>
           <em>This is a work in progress</em>
         </p>
-        <a href="https://dev.to/phillipkent">
-  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Phillip Kent Knight's DEV Profile" height="30" width="30">
-</a>
+
       </div>
     </section>
     <section class="home-block" id="home1">
@@ -62,7 +60,5 @@ section.home-block {
   background-color: var(--header-bg);
 }
 
-.links-section {
-  display: flex;
-}
+
 </style>
