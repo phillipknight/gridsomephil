@@ -6,7 +6,7 @@
       <section class="bio">
         <div class="bio-pic">
           <g-image
-            src="https://phillipkent.neocities.org/20190929_182036.jpg"
+            src="~/images/phil-screenshot.jpg"
             alt="photo of the very dashing Phillip Kent Knight"
             width="178"
             fit="cover"
@@ -14,7 +14,7 @@
         </div>
 
         <div class="bio-summary">
-          <h2>Technology and attempts to change the world are the only things that really hold my attention.</h2>
+          <h2>Tinkering with technology and trying to make a difference.</h2>
           <p>
             I’ve worked on campaigns ranging from municipal boards to United States Senate, and with organizations
             from small student groups to the largest LGBT nonprofit in the world. Every professional role I’ve had
