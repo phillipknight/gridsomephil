@@ -6,9 +6,9 @@
       <section class="bio">
         <div class="bio-pic">
           <g-image
-            src="~/images/phil-screenshot.jpg"
+            src="~/images/bw_headshot_pkk-crop.jpg"
             alt="photo of the very dashing Phillip Kent Knight"
-            width="178"
+            width="350"
             fit="cover"
           />
         </div>
