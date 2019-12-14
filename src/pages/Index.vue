@@ -4,7 +4,7 @@
     <section class="greet">
       <div class="center-box">
         <h1>Hi, I'm Phillip!</h1>
-        <p>Welcome to my website (and thanks for visiting)...</p>
+        <TypeWriter typewriterCopy="Welcome to my website (and thanks for visiting)..."></TypeWriter>
        
 
       </div>
@@ -26,6 +26,9 @@
 </template>
 
 <script>
+
+import TypeWriter from "~/components/TypeWriter.vue";
+
 export default {
   metaInfo: {
     title: "Hello, world!"
