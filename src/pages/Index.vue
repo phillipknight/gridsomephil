@@ -3,11 +3,9 @@
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <section class="greet">
       <div class="center-box">
-        <h1>Hello World!</h1>
-        <p>Welcome to my new website based on my old website.</p>
-        <p>
-          <em>This is a work in progress</em>
-        </p>
+        <h1>Hi, I'm Phillip!</h1>
+        <p>Welcome to my website (and thanks for visiting)...</p>
+       
 
       </div>
     </section>
@@ -20,13 +18,9 @@
         />
       </svg>
 
-      <div class="links-section">
-        <div class="link-container">
-          
-
-
+        <div class="intro-belowfold">
+          <h2>What would you like to find here?</h2>
         </div>
-      </div>
     </section>
   </Layout>
 </template>
@@ -62,7 +56,9 @@ section.home-block {
 }
 #home1 {
   background-color: var(--header-bg);
+  color: var(--header-link-color)
 }
+
 
 
 </style>
