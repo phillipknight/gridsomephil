@@ -15,11 +15,10 @@ query {
 <script>
 import HeaderComponent from "~/components/HeaderComponent.vue";
 
-
 export default {
   components: {
     HeaderComponent
-      }
+  }
 };
 </script>
 <style>
@@ -42,6 +41,8 @@ body {
   line-height: 1.5;
   background: var(--body-bg);
   color: var(--body-copy);
+
+  scroll-snap-type: y mandatory;
 }
 
 body[data-theme="dark"] {
@@ -80,4 +81,5 @@ a {
 img {
   max-width: 100%;
 }
+
 </style>
