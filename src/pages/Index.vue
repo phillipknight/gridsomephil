@@ -22,8 +22,14 @@
     <section class="home-block snappy" >
 
 
-        <div class="intro-belowfold">
-          <h2>What would you like to find here?</h2>
+        <div class="center-box">
+          <h2>Links</h2>
+          <ul class="flexlist">
+            <li><h3>Instagram</h3><p>things I want to show off</p></li>
+            <li><h3>Twitter</h3><p>mostly just trying to stay positive</p></li>
+            <li><h3>Facebook</h3><p>occasionally forgetting I hate facebook</p></li>
+            <li><h3>LinkedIn</h3><p>getting down to business</p></li>
+          </ul>
         </div>
     </section>
   </Layout>
@@ -76,5 +82,12 @@ section.home-block {
   scroll-snap-align: center;
 }
 
+.flexlist {
+  display:flex;
 
+}
+
+.flexlist li {
+  width:10rem;
+}
 </style>
